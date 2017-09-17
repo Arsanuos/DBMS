@@ -1,0 +1,11 @@
+<!ELEMENT tt (row*)>
+<!ELEMENT row (id,name)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+
+<!ATTLIST students coulmn0 CDATA #REQUIRED >
+<!ATTLIST students coulmn1 CDATA #REQUIRED >
+<!ATTLIST students sizeCol CDATA #REQUIRED >
+<!ATTLIST students sizeRow CDATA #REQUIRED >
+
+<!ATTLIST row id CDATA #REQUIRED >

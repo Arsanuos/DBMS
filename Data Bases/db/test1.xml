@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE test1 SYSTEM "test1.dtd">
+<test1 coulmn0="name:varchar" coulmn1="id:int" sizeCol="2" sizeRow="0"/>
