@@ -1,9 +1,7 @@
-package saveAndLoad.xmlAndJson;
+package xml.saveAndLoad;
 
 import java.io.File;
 import java.util.ArrayList;
-
-import dataBase.control.Table;
 
 public interface SaveAndLoad {
 
@@ -41,6 +39,4 @@ public interface SaveAndLoad {
 	public ArrayList<String> getCoulmnNames();
 
 	public ArrayList<String> getCoulmnTypes();
-	
-	public void saveTable(Table table);
 }

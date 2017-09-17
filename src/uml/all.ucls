@@ -73,8 +73,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <interface id="9" language="java" name="saveAndLoad.xmlAndJson.SaveAndLoad" project="Data Base" 
-    file="/Data Base/src/saveAndLoad/xmlAndJson/SaveAndLoad.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="9" language="java" name="xml.saveAndLoad.SaveAndLoad" project="Data Base" 
+    file="/Data Base/src/xml/saveAndLoad/SaveAndLoad.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="247" y="493"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -82,8 +82,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="10" language="java" name="saveAndLoad.xmlAndJson.SaveAndLoadImpl" project="Data Base" 
-    file="/Data Base/src/saveAndLoad/xmlAndJson/SaveAndLoadImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="10" language="java" name="xml.saveAndLoad.SaveAndLoadImpl" project="Data Base" 
+    file="/Data Base/src/xml/saveAndLoad/SaveAndLoadImpl.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="1035" y="445"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -92,93 +92,69 @@
     </display>  
   </class>  
   <association id="11">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="12" name="instancePrinter">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="13" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="14">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="4"/>  
-  </realization>  
-  <association id="15">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="16" name="instanceParser">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="17" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="6" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="18">    
-    <end type="SOURCE" refId="6" navigable="false">      
-      <attribute id="19" name="Dpms">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="20" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="4" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="21">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="9"/>  
-  </realization>  
-  <association id="22">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="23" name="instanceDataBaseControlImpl">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="24" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="25">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="26" name="printerObj">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="27" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="7" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="28">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="5"/>  
-  </realization>  
-  <realization id="29">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="7"/>  
-  </realization>  
-  <association id="30">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="31" name="saveAndLoadObj">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="32" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
+      <attribute id="12" name="saveAndLoadObj"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="9" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="15" name="instanceParser"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="17">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <association id="18">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="19" name="instanceDataBaseControlImpl"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="21">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="22">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="23" name="printerObj"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="25">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="26">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="27" name="instancePrinter"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="30" name="Dpms"/>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="32">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

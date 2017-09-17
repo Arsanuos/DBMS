@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.1.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="saveAndLoad.xmlAndJson.SaveAndLoad" project="Data Base" 
-    file="/Data Base/src/saveAndLoad/xmlAndJson/SaveAndLoad.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="1" language="java" name="xml.saveAndLoad.SaveAndLoad" project="Data Base" 
+    file="/Data Base/src/xml/saveAndLoad/SaveAndLoad.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="304" y="171"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="2" language="java" name="saveAndLoad.xmlAndJson.SaveAndLoadImpl" project="Data Base" 
-    file="/Data Base/src/saveAndLoad/xmlAndJson/SaveAndLoadImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="xml.saveAndLoad.SaveAndLoadImpl" project="Data Base" 
+    file="/Data Base/src/xml/saveAndLoad/SaveAndLoadImpl.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="921" y="221"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
