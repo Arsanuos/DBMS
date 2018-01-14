@@ -1,7 +1,6 @@
 # DBMS
-A data base management System accepts requests for data from the application program and instructs the
+A database management System in java which accepts requests for data from the application program and instructs the
 operating system to transfer the appropriate data and store it in a specific format.
-
 
 # Design pattern
 Some of the design pattern used in this app:
